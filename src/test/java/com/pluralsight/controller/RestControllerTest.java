@@ -20,8 +20,8 @@ public class RestControllerTest {
 		RestTemplate restTemplate = new RestTemplate();
 
 		Ride ride = new Ride();
-		ride.setName(" Re Renewed Willow Trial");
-		ride.setDuration(250);
+		ride.setName(" King of Trials ");
+		ride.setDuration(251);
 
 		ride = restTemplate.postForObject("http://localhost:8080/ride_tracker/ride", ride, Ride.class );
 
