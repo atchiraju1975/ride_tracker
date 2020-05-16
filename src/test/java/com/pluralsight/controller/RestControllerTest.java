@@ -20,8 +20,8 @@ public class RestControllerTest {
 		RestTemplate restTemplate = new RestTemplate();
 
 		Ride ride = new Ride();
-		ride.setName("Willo Trial");
-		ride.setDuration(60);
+		ride.setName("New Willow Trial");
+		ride.setDuration(35);
 
 		restTemplate.put("http://localhost:8080/ride_tracker/ride", ride);
 
